@@ -1,0 +1,49 @@
+#navbar {
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+#bio{
+    margin-top: 56px;
+    min-height:100vh;
+}
+#left-bio{
+    padding: 10%;
+}
+.no-padding{
+    padding: 0;
+}
+.comfortaa-font{
+    font-family: 'Comfortaa', cursive;
+}
+.didact-font{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Didact Gothic', sans-serif; */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #profile-pic{
+        width: 80vw;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+    #profile-pic{
+        min-width: 200px;
+        width: 30vw;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+}
