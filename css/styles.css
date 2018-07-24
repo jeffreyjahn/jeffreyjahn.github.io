@@ -2,13 +2,21 @@
     position: fixed; /* Make it stick/fixed */
     top: 0; /* Stay on top */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index:10;
 }
 #bio{
-    margin-top: 56px;
     min-height:100vh;
+    background-color: #eeeeee;
 }
 #left-bio{
+    padding: 5%;
+}
+#left-ed{
+    vertical-align: top !important;
+}
+#right-ed{
     padding: 10%;
+    padding-top: 5% !important;
 }
 .no-padding{
     padding: 0;
@@ -19,7 +27,18 @@
 .didact-font{
     font-family: 'Didact Gothic', sans-serif;
 }
-
+.paytone-one-font{
+    font-family: 'Paytone One', sans-serif;
+}
+.logo{
+    max-height: 5vh;
+}
+.main-color{
+    color:#6897bb;
+}
+#education{
+    background-color: #eeeeee;
+}
 /* font-family: 'Comfortaa', cursive;
 font-family: 'Didact Gothic', sans-serif; */
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -29,15 +48,25 @@ font-family: 'Didact Gothic', sans-serif; */
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    #profile-pic{
+    #right-ed{
+        justify-content: center;
+    }
+    #profile-pic, #edu-pic{
+        margin-left:0 0 0 15%;
         width: 80vw;
+    }
+    .text-right, .text-left{
+        text-align:center !important;
+    }
+    .nav-link{
+        text-align:right;
     }
 }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     
-    #profile-pic{
+    #profile-pic, #edu-pic{
         min-width: 200px;
         width: 30vw;
     }
