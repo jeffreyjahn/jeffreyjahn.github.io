@@ -33,12 +33,44 @@
 .logo{
     max-height: 5vh;
 }
+.icon{
+    max-height: 20px;
+}
 .main-color{
     color:#6897bb;
 }
 #education{
     background-color: #eeeeee;
 }
+.icon-link{
+    margin-bottom:10px;
+}
+.btn{
+    box-shadow: 5px 5px 4px #888888;
+}
+.btn:hover{
+    box-shadow:none;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.portfolio-hover{
+    position: absolute;
+    top:15%;
+}
+i{
+    color:	#ff4040;
+}
+i:hover{
+    color: #ffffff;
+}
+
+/* .modal{
+    position:absolute;
+} */
+/* #website{
+    vertical-align: top;
+} */
 /* font-family: 'Comfortaa', cursive;
 font-family: 'Didact Gothic', sans-serif; */
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -60,6 +92,9 @@ font-family: 'Didact Gothic', sans-serif; */
     }
     .nav-link{
         text-align:right;
+    }
+    .btn{
+        align-content: center;
     }
 }
 

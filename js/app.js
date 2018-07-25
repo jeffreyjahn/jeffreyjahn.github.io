@@ -9,4 +9,13 @@ $(document).ready(function () {
     }
     prevScrollpos = currentScrollPos;
     }
+    new WOW().init();
+
+    $('#picsell-card').hover(function () {
+            // over
+            
+        }, function () {
+            // out
+        }
+    );
 });
