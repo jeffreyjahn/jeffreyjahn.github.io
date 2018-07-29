@@ -56,15 +56,18 @@
 }
 .portfolio-hover{
     position: absolute;
-    top:15%;
+    top:20%;
 }
 i{
-    color:	#ff4040;
+    color:	#b1d7f5;
 }
 i:hover{
     color: #ffffff;
 }
-
+/* .portfolio-opacity{
+    opacity: 0.5;
+    z-index:-2
+} */
 /* .modal{
     position:absolute;
 } */
@@ -99,6 +102,13 @@ font-family: 'Didact Gothic', sans-serif; */
     #left-bio, #right-bio, #right-ed, #left-ed, #about-me, #story, #tech-wrap{
         margin-left:3px !important;
         text-align:center !important;
+    }
+    .jeff-center{
+        text-align: center !important;
+    }
+    .portfolio-hover{
+        position: absolute;
+        top:8%;
     }
 }
 
