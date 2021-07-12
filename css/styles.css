@@ -99,7 +99,7 @@ font-family: 'Didact Gothic', sans-serif; */
     .btn{
         align-content: center;
     }
-    #left-bio, #right-bio, #right-ed, #left-ed, #about-me, #story, #tech-wrap{
+    #left-bio, #right-bio, #right-ed, #left-ed, #experience, #about-me, #story, #tech-wrap{
         margin-left:3px !important;
         text-align:center !important;
     }
